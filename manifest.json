@@ -1,0 +1,16 @@
+{
+  "name": "Open HANA Jira",
+  "description": "Open the HANA jira as the link is not provided in the gantt charts",
+  "version": "0.1",
+  "permissions": ["contextMenus", "tabs"],
+  "background": {
+    "service_worker": "hana.js"
+  },
+  "icons": {
+    "16": "jira16.png",
+    "32": "jira32.png",
+    "48": "jira48.png",
+    "128": "jira128.png"
+  },
+  "manifest_version": 3
+}
